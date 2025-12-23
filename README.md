@@ -55,11 +55,11 @@ campus-card-system/
 │   │   └── dto/              # 数据传输对象（如 RechargeRequest）
 │   └── src/main/resources/application.yml  # 配置文件
 └── campus-card-frontend/     # Vue 3 前端项目
-└── src/components/
-├── StudentHome.vue   # 学生主页（主界面）
-├── Recharge.vue      # 充值组件
-├── CardApplication.vue # 挂失申请组件
-└── TransactionHistory.vue # 交易记录组件
+    └── src/components/
+        ├── StudentHome.vue   # 学生主页（主界面）
+        ├── Recharge.vue      # 充值组件
+        ├── CardApplication.vue # 挂失申请组件
+        └── TransactionHistory.vue # 交易记录组件
 
 ### ⚠️ 注意事项
 

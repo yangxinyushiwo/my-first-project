@@ -36,7 +36,7 @@ public class AuthController {
         response.put("success", true);
         response.put("userId", user.getUserId());
         response.put("role", user.getRole());
-        response.put("isFirstLogin", user.isFirstLogin()); // 关键字段！
+        response.put("isFirstLogin", user.isFirstLogin()); 
 
         return ResponseEntity.ok(response);
     }
